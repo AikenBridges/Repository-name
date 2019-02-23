@@ -1,4 +1,4 @@
-var game = new Phaser.game(800,600, Phaser.AUTO,'', {preload:preload, create:create, update:update});
+var game = new Phaser.Game(800,600, Phaser.AUTO,'', {preload:preload, create:create, update:update});
 
 var score = 0;
 var life = 3;
@@ -20,10 +20,10 @@ function create(){
 
 	var ground = platforms.create(0, 550, "platform");
 	ground.scale.setTo(2,2);
-	var ledgeL = platforms.create(-100, 300, "platform");
-	ledgeL.body.immovable = true;
-	var ledgeR = platforms.create(400, 400, "platform");
-	ledgeR.body.immovable = true;
+	var ledge = platforms.create(400, 400, "platform");
+	ledge.body.immovable = true;
+	ledge = platforms.create(-100, 250, "platform");
+	ledge.body.immovable = true;
 
 	var style = {font: "bold 32px Arial", fill:"#fff"}
 	scorelabel = game.add.text(300,560,"score: ", style)
