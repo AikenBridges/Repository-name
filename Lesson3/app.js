@@ -88,15 +88,3 @@ ctx6.strokeStyle = "grey";
 ctx6.stroke();
 ctx6.fillStyle = "lightgrey";
 ctx6.fill();
-
-
-
-
-
-
-
-
-
-
-
-

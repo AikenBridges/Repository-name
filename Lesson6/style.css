@@ -1,0 +1,13 @@
+canvas {
+	border:  1px blue solid;
+}
+
+div {
+	display: flex;
+}
+
+body{
+	background-color:  black;
+	color: yellow;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
