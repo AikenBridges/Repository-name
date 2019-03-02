@@ -37,5 +37,5 @@ function create(){
 	lifetext.setShadow(3,3,"rgba(0,0,0,0.5",2)
 }
 function update(){
-
+	
 }
