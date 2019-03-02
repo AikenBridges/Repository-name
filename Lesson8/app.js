@@ -115,3 +115,13 @@ function update(){
 		player.body.velocity.y = -300;
 	}
 }
+
+function moveEnemy(){
+	if(enemy.x>759){
+		enemy.body.velocity.x = -120;
+		enemy.animations.play("left");
+	}else if(enemy.x<405){
+		enemy.body.velocity.x = 120;
+		enemy.animations.play("right");
+	}
+}
