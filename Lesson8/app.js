@@ -20,6 +20,7 @@ function create(){
 
 	var ground = platforms.create(0, 550, 'platform');
 	ground.scale.setTo(2,2);
+	ground.body.immovable = true;
 	var ledge = platforms.create(400, 400, 'platform');
 	ledge.body.immovable = true;
 	ledge = platforms.create(-100, 250, 'platform');
