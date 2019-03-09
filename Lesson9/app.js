@@ -131,10 +131,10 @@ function collectStar(){
 	star.reset(Math.floor(Math.random()*750),0);
 }
 function loseLife(){
-	life = life--;
-	lifetext.setText(score);
 	enemy.kill();
 	enemy.reset(10,20);
+	life = life--;
+	lifetext.setText(score);
 }
 function endGame(){
 	player.kill();
