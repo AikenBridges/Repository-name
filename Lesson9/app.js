@@ -150,7 +150,7 @@ function moveEnemy(){
 		if(enemy.y>400){
 			//jump
 			if(enemy.body.touching.down){
-				enemy.body.velocity.y = -300;
+				enemy.body.velocity.y = -400;
 			}
 			//move across bot pl
 			if(enemy.x>759){
@@ -164,7 +164,7 @@ function moveEnemy(){
 		}else if(enemy.y<400&&enemy.y>250){
 			//jump
 			if(enemy.body.touching.down){
-				enemy.body.velocity.y = -300;
+				enemy.body.velocity.y = -400;
 			}
 			//move across top pl
 			if(enemy.x>359){
@@ -191,7 +191,7 @@ function moveEnemy(){
 		if(enemy.y>400){
 			//jump
 			if(enemy.body.touching.down){
-				enemy.body.velocity.y = -300;
+				enemy.body.velocity.y = -400;
 			}
 			//move across bot pl
 			if(enemy.x>759){
